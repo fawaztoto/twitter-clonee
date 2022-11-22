@@ -14,3 +14,39 @@ body {
 }
 
 
+
+
+@media screen and (max-width: 600px) {
+ 
+  .sidebar{
+
+    display: none;
+  }
+
+  .widgets{
+
+    display: none;
+  }
+
+  .App{
+
+    overflow: hidden;
+  }
+
+  
+  .gifs__image{
+  
+    
+      height: 150px;
+  }
+  
+  .post{
+
+    padding: 20px;
+  }
+
+  .tweetBox{
+    padding: 10px; 
+    margin-right: 20px;
+  }
+}
