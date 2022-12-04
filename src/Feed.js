@@ -27,6 +27,7 @@ function Feed() {
 
       
         <TweetBox /> 
+        
       <FlipMove>
     {posts.map((post) =>(
     <Post 
